@@ -1,0 +1,9 @@
+menu "TCA9555 Test"
+
+config TCA9555_TEST
+    bool "Enable TCA9555 test"
+    default y
+    help
+      Enable TCA9555 test driver.
+
+endmenu

@@ -1,0 +1,9 @@
+name: zmk-keyboard-gmykeyboard104
+
+build:
+  cmake: .
+  kconfig: Kconfig
+
+  settings:
+    board_root: .
+    dts_root: .

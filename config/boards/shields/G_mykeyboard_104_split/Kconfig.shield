@@ -1,0 +1,2 @@
+config SHIELD_G_MYKEYBOARD_104_SPLIT
+    def_bool $(shields_list_contains,G_mykeyboard_104_split)
